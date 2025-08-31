@@ -1,0 +1,54 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_content { 
+  display: flex;
+  flex: 1;
+  text-align: center;
+  background-image: url(/img/works_background.jpg);
+  background-size: cover;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.works {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+h1 {
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.thumbnail {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.gallery, .cafe, .portfolio, .rock-paper-scissors, .omikuji, .to_do {
+  display: flex;
+  align-items: center;
+  
+}
+
+.pc {
+  width: 300px;
+}
+
+.tablet {
+  width: 200px;
+}
+
+.phone {
+  width: 100px;
+}

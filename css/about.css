@@ -1,0 +1,42 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_content {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  text-align: center;
+  background-image: url(/img/background2.jpg);
+  background-size: cover;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.about {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+h1 {
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.about_contents img {
+  width: 200px;
+  border: solid;
+  border-width: thin;
+  border-radius: 50%;
+  background-color: white;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}

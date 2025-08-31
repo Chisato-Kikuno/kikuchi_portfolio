@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/* common */
+html, body{
+  font-size: 100%;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+}
+
+main {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+a:link, a:visited {
+  color: rgb(9, 6, 148);
+  text-decoration: underline;
+  text-decoration-color: rgb(9, 6, 148);
+}
+
+
+a:hover {
+  opacity: 0.7;
+}
+
+
+/* header */
+
+.top_icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+nav {
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_contents {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* footer */
+footer {
+  height: 50px;
+  background-color: rgb(2, 14, 66);
+  display: grid;
+  place-items: center;
+}
+
+small {
+  font-size: small;
+  color: white;
+}
