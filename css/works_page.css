@@ -4,7 +4,7 @@ html, body {
 
 .main_content {
   text-align: center;
-  background-image: url(/img/background.jpg);
+  background-image: url("../img/background.jpg");
   background-repeat: repeat;
 }
 
@@ -84,4 +84,5 @@ p {
     width: 300px;
     padding: 2rem;
   }
+
 }
